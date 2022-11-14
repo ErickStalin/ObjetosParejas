@@ -1,14 +1,14 @@
 public class universidades {
-    int edad;
-    String nombres;
+    int anio,nAulas, duracion, nroEstudiantes;
+    String nombres, especialidades;
     public universidades(){
-        edad = 0;
+        anio = 0;
     }
-    public int getEdad(){
-    return edad;
+    public int getAnio(){
+    return anio;
     }
-    public void setEdad(int edad){
-        this.edad = edad;
+    public void setAnio(int edad){
+        this.anio = anio;
     }
     public String getNombres(){
         return nombres;

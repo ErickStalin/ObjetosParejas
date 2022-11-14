@@ -10,7 +10,7 @@ public class universidades {
     public void setEdad(int edad){
         this.edad = edad;
     }
-    public int getNombres(){
+    public String getNombres(){
         return nombres;
     }
     public void setNombres(String nombres){
